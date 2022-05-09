@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: beige;">
+    <form action="/api/restaurants" method="post">
+      <div class="container mx-2 my-2">
+        <h1>Address:</h1>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Building</label>
+            <input type="text" class="form-control" name="Building" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" name="inputPassword4" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">X Coord</label>
+            <input type="text" class="form-control" name="Coord1" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Y Coord</label>
+            <input type="text" class="form-control" name="Coord2" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Street</label>
+            <input type="text" class="form-control" name="Street" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Zipcode</label>
+            <input type="text" class="form-control" name="Zipcode" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Borough</label>
+            <input type="text" class="form-control" name="Borough" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Cuisine</label>
+            <input type="text" class="form-control" name="Cuisine" />
+          </div>
+        </div>
+
+        <h1>Grades</h1>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Date</label>
+            <input type="text" class="form-control" name="Date" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Grade</label>
+            <input type="text" class="form-control" name="Grade" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Score</label>
+            <input type="text" class="form-control" name="Score" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Name</label>
+            <input type="text" class="form-control" name="Name" />
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Restaurant ID</label>
+            <input type="text" class="form-control" name="Restaurant_id" />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+    </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
